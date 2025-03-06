@@ -97,6 +97,6 @@ License: [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Thanks to
 
-| [![Gxyenn](https://github.com/Gxyenn.png?size=100)](https://github.com/Gxyenn) | [![WhiskeySockets](https://github.com/WhiskeySockets.png?size=100)](https://github.com/WhiskeySockets) |
-| --- | --- | --- | --- |
-| [Gxyenn](https://github.com/Gxyenn) | [WhiskeySockets](https://github.com/WhiskeySockets) |
+ [![Gxyenn](https://github.com/Gxyenn.png?size=100)](https://github.com/Gxyenn) [![WhiskeySockets](https://github.com/WhiskeySockets.png?size=100)](https://github.com/WhiskeySockets) 
+ 
+ [Gxyenn](https://github.com/Gxyenn)  [WhiskeySockets](https://github.com/WhiskeySockets) |
