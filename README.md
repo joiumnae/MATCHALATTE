@@ -65,6 +65,7 @@ pkg install ffmpeg
 pkg install imagemagick
 pkg install nodejs
 pkg install yarn
+git clone https://github.com/Gxyenn/XlesyVIPenc.git
 termux-setup-storage
 cd XlesyVIPenc
 yarn
