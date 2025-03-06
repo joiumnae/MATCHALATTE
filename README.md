@@ -69,7 +69,7 @@ git clone https://github.com/Gxyenn/XlesyVIPenc.git
 termux-setup-storage
 cd XlesyVIPenc
 yarn
-node start.js
+node .
 ```
 
 ---
@@ -79,6 +79,14 @@ node start.js
 node .
 ```
 ---
+
+[ OPSIONAL ]
+Jikalau eror ketika pemasang pairing code di pastink  itu karena anda pas pertama kali memasukan nomor salah, jadi ini code untuk meresetnya kembali
+```bash
+rm -rf SessionXlesy
+```
+---
+
 
 ### Connection Options
 - Support Qr Code
