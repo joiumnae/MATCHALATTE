@@ -4,9 +4,10 @@
   "description": "Bot WhatsApp Using Lib Baileys Multi Device",
   "main": "start.js",
   "type": "commonjs",
-"scripts": {
-  "start": "bash cek_update.sh & node start.js"
-},
+  "scripts": {
+    "start": "node start.js",
+    "debug": "DEBUG=* node start.js"
+  },
   "keywords": [
     "whatsapp-bot",
     "baileys-md",
