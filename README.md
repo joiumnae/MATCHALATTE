@@ -57,6 +57,7 @@ cd XlesyVIPenc
 npm install
 ```
 
+## Install for Termux Tanpa /Ubuntu/Ubuntu user
 [ RECOMMENDED INSTALL ON TERMUX ]
 ```bash
 pkg update && pkg upgrade
