@@ -13,7 +13,7 @@
     "bot-wa",
     "multi-device"
   ],
-  "author": "グクエン",
+  "author": "Gxyenn",
   "license": "MIT",
   "dependencies": {
     "@hapi/boom": "^10.0.0",
