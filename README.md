@@ -80,7 +80,7 @@ node .
 ```
 ---
 
-[ OPSIONAL ]
+## [ OPSIONAL ]
 Jikalau eror ketika pemasang pairing code di pastink  itu karena anda pas pertama kali memasukan nomor salah, jadi ini code untuk meresetnya kembali
 ```bash
 rm -rf SessionXlesy
