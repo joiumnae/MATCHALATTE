@@ -69,7 +69,7 @@ git clone https://github.com/Gxyenn/XlesyVIPenc.git
 termux-setup-storage
 cd XlesyVIPenc
 yarn
-node .
+node start.js
 ```
 
 ---
