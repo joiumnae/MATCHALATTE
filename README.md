@@ -89,7 +89,8 @@ rm -rf SessionXlesy
 ---
 
 ## [ OPSIONAL ]
-Gunakan Comand ini jikalau anda menggunakan gitclone untuk update tanpa git ulang 
+Gunakan Comand ini jikalau anda menggunakan gitclone, 
+Code ini untuk update tanpa git ulang 
 ```bash
 git pull origin main
 ```
