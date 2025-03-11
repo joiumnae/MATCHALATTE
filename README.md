@@ -88,6 +88,13 @@ rm -rf SessionXlesy
 ```
 ---
 
+## [ OPSIONAL ]
+Gunakan Comand ini jikalau anda menggunakan gitclone untuk update tanpa git ulang 
+```bash
+git pull origin main
+```
+---
+
 
 ### Connection Options
 - Support Qr Code
