@@ -1,6 +1,6 @@
 {
   "name": "Xlesy",
-  "version": "5.0.0",
+  "version": "VIP",
   "description": "Bot WhatsApp Using Lib Baileys Multi Device",
   "main": "start.js",
   "type": "commonjs",
@@ -25,6 +25,7 @@
     "axios": "^0.24.0",
     "chalk": "^4.1.2",
     "node-cache": "^5.1.2",
+    "js-confuser": "^1.7.3",
     "cheerio": "^1.0.0-rc.10",
     "child_process": "^1.0.2",
     "crypto": "^1.0.1",
