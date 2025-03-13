@@ -100,7 +100,7 @@ async function GroupParticipantsUpdate(Xlesy, { id, participants, author, action
 								sourceUrl: global.my.ch
 							}
 						}
-					}, { quoted: fkontak1 })
+					})
 				}
 			}
 		}
