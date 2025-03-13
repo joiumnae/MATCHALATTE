@@ -109,9 +109,12 @@ git pull origin main
 
 
 License: [MIT](https://choosealicense.com/licenses/mit/)
+#### NO ENC
+Jikalau mau Script Yang No Enc Silhkan Buy Ke - [DevLover] [https://6283877636168?text=_Min+Mau+Buy+SC+No-enc+brp+harganya?_
+
 
 #### Support Me
-- [Saweria](https://saweria.co/GxyennID)
+- [YouTub] (https://youtube.com/@GxyenDEV)
 
 ## Thanks to
 
