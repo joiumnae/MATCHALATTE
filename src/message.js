@@ -55,28 +55,38 @@ async function GroupParticipantsUpdate(Xlesy, { id, participants, author, action
 				} catch {
 					profile = 'https://telegra.ph/file/95670d63378f7f4210f03.png';
 				}
-				messageText;
+				let messageText;
 				if (action === 'add') {
-					messageText = `Welcome to ${metadata.subject}\n@${n.split('@')[0]}\n_Selamat datang! Semoga betah di sini. Jangan ragu buat tanya atau sharing apa pun yang bermanfaat. Tetap santai, tetap asik, dan jangan lupa patuhi aturan yang ada._
+					messageText = `_「 いらっしゃいませ! 」 Shūdan_ \`${metadata.subject}\`\nHallo @${n.split('@')[0]}\n> INTRO
+∘∘── ⌜ KARTU TANDA ANGGOTA ⌟ ──∘∘  
 
-\`Enjoy & have fun!\`  🚀
-
-> XlesyVIP`;
+┌───> ✎ [Nama] :   
+│         ✎ [Umur] : 
+│     ✎ [Hobi] : 
+│     ✎ [Gender] :
+│         ✎ [Ce/Co] : 
+└───> ✎ [情報]  
+┌───> Bergabung Pada!.
+│       ✎ [Time] : ${jam} WIB
+│   ✎ [Date] : ${tanggal}
+│       ✎ [Day] : ${hari}
+└───> 
+*✦ Semoga betah dan tetap solid bersama kami! ✦*
+© \`GXYENNDΞVi\`
+> XLESYVIP`;
 					metadata.participants.push({ id: jidNormalizedUser(n), admin: null });
 				} else if (action === 'remove') {
-					messageText = `Sayonara.. @${n.split('@')[0]}\n${metadata.subject}\n
-_Waktunya berpisah, semoga sukses di mana pun kamu berada. Jangan lupa kita pernah berbagi di sini. Sampai jumpa di lain waktu! 🚀_
-> © Gxyenn`;
+					messageText = `"Goodbye!@${n.split('@')[0]}\n _\`Shūdan\`_ _*${metadata.subject}*_\nJangan lupa untuk selalu tersenyum!"\n> XLESYVIP`;
 					metadata.participants = metadata.participants.filter(p => !participants.includes(jidNormalizedUser(p.id)));
 				} else if (action === 'promote') {
-					messageText = `@${n.split('@')[0]}\nPromoasikan Dari ${metadata.subject}\nBY @${author.split('@')[0]}`;
+					messageText = `@${n.split('@')[0]}\nYoroKobi!.🥳 Kamu telah dipromosikan. Semoga sukses!"\n_\`Shūdan\`_ _*${metadata.subject}*_\n_Kara_ @${author.split('@')[0]}`;
 					updateAdminStatus(participants, metadata.participants, 'admin');
 				} else if (action === 'demote') {
-					messageText = `@${n.split('@')[0]}\nDi Turunkan Dari ${metadata.subject}\nBY @${author.split('@')[0]}`;
+					messageText = `@${n.split('@')[0]}\nTor NozoKarerui!. \n_\`Shūdan\`_${metadata.subject}\n_Kara_ @${author.split('@')[0]}`;
 					updateAdminStatus(participants, metadata.participants, null);
 				}
 				groupCache.set(id, metadata);
-				if (messageText && global.db.groups[id].welcome, { quoted: fkontak1 }) {
+				if (messageText && global.db.groups[id].welcome) {
 					await Xlesy.sendMessage(id, {
 						text: messageText,
 						contextInfo: {
@@ -87,10 +97,10 @@ _Waktunya berpisah, semoga sukses di mana pun kamu berada. Jangan lupa kita pern
 								previewType: 0,
 								thumbnailUrl: profile,
 								renderLargerThumbnail: true,
-								sourceUrl: global.my.gh
+								sourceUrl: global.my.ch
 							}
 						}
-					});
+					}, { quoted: fkontak1 })
 				}
 			}
 		}
