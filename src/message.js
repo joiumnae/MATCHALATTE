@@ -66,7 +66,7 @@ async function GroupParticipantsUpdate(Xlesy, { id, participants, author, action
 					messageText = `@${n.split('@')[0]}\nYoroKobi!.🥳 Kamu telah dipromosikan. Semoga sukses!"\n_\`Shūdan\`_ _*${metadata.subject}*_\n_Kara_ @${author.split('@')[0]}`;
 					updateAdminStatus(participants, metadata.participants, 'admin');
 				} else if (action === 'demote') {
-					messageText = `@${n.split('@')[0]}\nTor NozoKarerui!. \n_\`Shūdan\`_${metadata.subject}\n_Kara_ @${author.split('@')[0]}`;
+					messageText = `@${n.split('@')[0]}\nTor NozoKarerui!. \n_\`Shūdan\`_ *${metadata.subject}*\n_Kara_ @${author.split('@')[0]}`;
 					updateAdminStatus(participants, metadata.participants, null);
 				}
 				groupCache.set(id, metadata);
