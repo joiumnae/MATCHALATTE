@@ -57,8 +57,7 @@ async function GroupParticipantsUpdate(Xlesy, { id, participants, author, action
 				}
 				let messageText;
 				if (action === 'add') {
-					messageText = `Welcome to ${metadata.subject}\n@${n.split('@')[0]}\n> INTRO\n∘∘── ⌜ KARTU TANDA ANGGOTA ⌟ ──∘∘  \n\n┌───> ✎ [Nama] :   \n│         ✎ [Umur] : \n│     ✎ [Hobi] : \n│     ✎ [Gender] :\n│         ✎ [Ce/Co] : \n└───> ✎ [情報] \n┌───> Bergabung Pada!.\n│       ✎ [Time] : ${jam} WIB\n│   ✎ [Date] : ${tanggal}\n│       ✎ [Day] : ${hari}\n└───> \n*✦ Semoga betah dan tetap solid bersama kami! ✦*\n© \`GXYENNDΞVi\`
-\n> XLESYVIP`;
+					messageText = `Welcome to ${metadata.subject}\n@${n.split('@')[0]}\nSemoga Betah Ya!.\n> XLESYVIP`;
 					metadata.participants.push({ id: jidNormalizedUser(n), admin: null });
 				} else if (action === 'remove') {
 					messageText = `"Goodbye!@${n.split('@')[0]}\n _\`Shūdan\`_ _*${metadata.subject}*_\nJangan lupa untuk selalu tersenyum!"\n> XLESYVIP`;
