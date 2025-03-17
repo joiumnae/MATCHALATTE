@@ -68,7 +68,7 @@ pkg install nodejs
 pkg install yarn
 git clone https://github.com/Gxyenn/XlesyVIPenc.git
 termux-setup-storage
-cd XlesyVIPenc
+cd XLESYVIPENC 
 yarn
 node start.js
 ```
