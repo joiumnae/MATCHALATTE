@@ -53,7 +53,7 @@ pkg install nodejs
 pkg install ffmpeg
 pkg install imagemagick
 git clone https://github.com/Gxyenn/XlesyVIPenc
-cd XlesyVIPenc
+cd XLESYVIPENC 
 npm install
 ```
 
