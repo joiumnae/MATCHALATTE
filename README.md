@@ -1,13 +1,13 @@
 ## Information
 
 <div align="center">
-<a href="https://github.com/Gxyenn/XlesyVIPenc/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Gxyenn/XlesyVIPenc?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/Gxyenn/XlesyVIPenc/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Gxyenn/XlesyVIPenc?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/Gxyenn/XlesyVIPenc/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Gxyenn/XlesyVIPenc?label=Stars&color=yellow&style=flat-square"></a>
-<a href="https://github.com/Gxyenn/XlesyVIPenc/issues"><img title="Issues" src="https://img.shields.io/github/issues/Gxyenn/XlesyVIPenc?label=Issues&color=success&style=flat-square"></a>
-<a href="https://github.com/Gxyenn/XlesyVIPenc/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Gxyenn/XlesyVIPenc?label=Issues&color=red&style=flat-square"></a>
-<a href="https://github.com/Gxyenn/XlesyVIPenc/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Gxyenn/XlesyVIPenc?label=PullRequest&color=success&style=flat-square"></a>
-<a href="https://github.com/Gxyenn/XlesyVIPenc/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Gxyenn/XlesyVIPenc?label=PullRequest&color=red&style=flat-square"></a>
+<a href="https://github.com/Gxyenn/XLESYVIP/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Gxyenn/XLESYVIP?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/Gxyenn/XLESYVIP/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Gxyenn/XLESYVIP?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/Gxyenn/XLESYVIP/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Gxyenn/XLESYVIP?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/Gxyenn/XLESYVIP/issues"><img title="Issues" src="https://img.shields.io/github/issues/Gxyenn/XLESYVIP?label=Issues&color=success&style=flat-square"></a>
+<a href="https://github.com/Gxyenn/XLESYVIP/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Gxyenn/XLESYVIP?label=Issues&color=red&style=flat-square"></a>
+<a href="https://github.com/Gxyenn/XLESYVIP/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Gxyenn/XLESYVIP?label=PullRequest&color=success&style=flat-square"></a>
+<a href="https://github.com/Gxyenn/XLESYVIP/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Gxyenn/XLESYVIP?label=PullRequest&color=red&style=flat-square"></a>
 </div>
 
 This script is created by [Gxyenn](https://github.com/Gxyenn) using Node.js and the [WhiskeySocket/Baileys](https://github.com/WhiskeySockets/Baileys) library. The script is currently in the development phase (BETA), so there may still be some errors that can be ignored. If errors persist even after debugging, please contact the owner for assistance. ~ By Gxyenn
@@ -39,7 +39,7 @@ This script is created by [Gxyenn](https://github.com/Gxyenn) using Node.js and 
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/Gxyenn/XlesyVIPenc
+git clone https://github.com/Gxyenn/XLESYVIP
 cd XlesyVIPenc
 npm install
 npm update
@@ -52,8 +52,8 @@ pkg install git
 pkg install nodejs
 pkg install ffmpeg
 pkg install imagemagick
-git clone https://github.com/Gxyenn/XlesyVIPenc
-cd XLESYVIPENC 
+git clone https://github.com/Gxyenn/XLESYVIP
+cd XLESYVIP
 npm install
 ```
 
@@ -66,7 +66,7 @@ pkg install ffmpeg
 pkg install imagemagick
 pkg install nodejs
 pkg install yarn
-git clone https://github.com/Gxyenn/XlesyVIPenc.git
+git clone https://github.com/Gxyenn/XLESYVIP.git
 termux-setup-storage
 cd XLESYVIPENC 
 yarn
