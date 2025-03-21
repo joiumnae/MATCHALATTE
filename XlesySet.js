@@ -3,6 +3,7 @@ const XlesySet = {
     owner: ['6283877636168'],
     packname: 'Xlesy',
     author: 'Gxyenn',
+    namestore: 'GxyenDev',
     botname: 'XlesyBot',
     listprefix: ['.'],
     listv: ['❀','✿','⚘','々'],
