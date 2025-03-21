@@ -12,6 +12,10 @@ const XlesySet = {
     gopay: ['083877636168'],
     ovo: ['kosong'],
     pulsa: ['083877636168'],
+    
+    //~~~~~~~~~~~JHUSUS PANEL~~~~~~~~~~~\\
+    // Kalo pake panel masukin nomer di sini, sbelum ambil session. Format : '628xx
+    number_bot = ''
 };
 
 module.exports = XlesySet
