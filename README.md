@@ -40,7 +40,7 @@ This script is created by [Gxyenn](https://github.com/Gxyenn) using Node.js and 
 
 ```bash
 git clone https://github.com/Gxyenn/XLESYVIP
-cd XlesyVIPenc
+cd XLESYVIP
 npm install
 npm update
 ```
