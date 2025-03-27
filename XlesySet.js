@@ -11,6 +11,7 @@ const XlesySet = {
     gopay: ['083877636168'],
     ovo: ['kosong'],
     pulsa: ['083877636168'],
+    qris: ['kosong'],
 };
 
 module.exports = XlesySet
